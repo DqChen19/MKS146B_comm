@@ -1,10 +1,10 @@
 Readme.md
 
-##MKS 146B Capacitance Manometers: PC Communication
+## MKS 146B Capacitance Manometers: PC Communication
 
 This repository provides code to communicate with an MKS 146B controller connected to two capacitance manometers, from a Windows PC. It has been tested on Windows 10.
 
-###What this does
+### What this does
 
 Opens a serial connection to the MKS 146B controller
 
@@ -14,7 +14,7 @@ Reads pressures and basic status information
 
 For full command syntax and protocol details, see the supplementary section of the MKS 146B manual.
 
-###Requirements
+### Requirements
 
 MKS 146B controller with more than 1 capacitance manometers attached.
 
@@ -24,7 +24,7 @@ Windows 10+
 
 Python 3.10 + pyserial, or C++ with Win32 serial API
 
-###Quick start
+### Quick start
 
 Connect the controller to your PC via RS-232 or 485.
 

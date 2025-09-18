@@ -1,4 +1,4 @@
-Readme.txt
+Readme.md
 
 ##MKS 146B Capacitance Manometers: PC Communication
 

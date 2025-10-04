@@ -49,10 +49,11 @@ try:
             else:
                 print("No response received. Check connection or command format.")
 
-            # Wait 1 second before the next query
+            # Wait 1 min before the next query
             time.sleep(60)
 except KeyboardInterrupt:
     print("Stopping the script.")
 finally:
     ser.close()
     print("Serial connection closed.")
+
